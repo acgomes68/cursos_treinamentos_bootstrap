@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Curso Bootstrap</title>
+        
+        <!-- define a view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        
+        <!-- Adcionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- CSS personalizado Geral -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>Single Toggle</h1>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Single Toggle 1</button>
+                    <button type="button" class="btn btn-danger" data-toggle="button" aria-pressed="false" autocomplete="off">Single Toggle 2</button>
+                    <button type="button" id="troca-estado" class="btn btn-danger" aria-pressed="false" autocomplete="off">Carregar algo</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>Checkbox</h1>
+                    </div>
+
+                    <div class="btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary active btnjs">
+                            <input type="checkbox" autocomplete="off" checked>Opção 1
+                        </label>
+                        <label class="btn btn-secondary btnjs">
+                            <input type="checkbox" autocomplete="off">Opção 2
+                        </label>
+                        <label class="btn btn-secondary btnjs">
+                            <input type="checkbox" autocomplete="off">Opção 3
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>RadioGroup</h1>
+                    </div>
+
+                    <div class="btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-primary active btnjs">
+                            <input type="radio" name="rdGroup" id="rdGroup1" autocomplete="off" checked>Opção 1
+                        </label>
+                        <label class="btn btn-primary btnjs">
+                            <input type="radio" name="rdGroup" id="rdGroup2" autocomplete="off">Opção 2
+                        </label>
+                        <label class="btn btn-primary btnjs">
+                            <input type="radio" name="rdGroup" id="rdGroup3" autocomplete="off">Opção 3
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>

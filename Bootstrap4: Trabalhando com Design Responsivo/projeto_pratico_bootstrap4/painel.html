@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+
+        <!-- CSS personalizado com ícones da biblioteca Glyphicon -->
+        <link href="css/glyphicon.css" rel="stylesheet" media="screen">
+        
+        <!-- Application CSS -->
+        <link rel="stylesheet" href="css/admin.css">
+
+        <title>Bootstrap 4 - Projeto Prático - Painel de Controle</title>
+    </head>
+    <body>
+        <!--a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank">Subtle Paterns</a-->
+        <!--a href="https://fontawesome.com/" target="_blank">Font Awesome</a-->
+        <!--a href="https://startbootstrap.com/" target="_blank">Start Bootstrap</a-->
+        <!--a href="https://bootswatch.com/" target="_blank">Bootswatch</a-->
+        <!--a href="https://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap" target="_blank">50 Plugins</a-->
+        <!--a href="https://mimo84.github.io/bootstrap-maxlength/" target="_blank">Plugin MaxLength</a-->
+        
+        
+        
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logomarca</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-home fa-2x"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-calendar fa-2x"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-calculator fa-2x"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-image fa-2x"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-cogs fa-2x"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-search fa-2x"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <i class="fas fa-user fa-2x"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Minha conta</a>
+                              <a class="dropdown-item" href="#">Trocar senha</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="login.html">Sair</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container-fluid">
+            <div class="row pt-3">
+                <div class="col-3">
+                    
+                    <!-- menu navegação lateral -->
+                    
+                    <div class="card border-info mb-1" style="max-width: 18rem;">
+                        <div class="card-header bg-info">
+                            <a href="#collapsePosts" class="text-white" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapsePosts">
+                                <i class="glyphicon glyphicon-file" aria-hidden="true"></i>
+                                Gerenciar Posts
+                            </a>
+                        </div>
+                        
+                        <div class="collapse" id="collapsePosts">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#" class="text-info">Incluir novo Post</a></li>
+                                <li class="list-group-item"><a href="#" class="text-info">Alterar Posts</a></li>
+                                <li class="list-group-item"><a href="#" class="text-info">Excluir Posts</a></li>
+                            </ul>
+                            <div class="card-footer bg-info"></div>
+                        </div>
+                    </div>
+
+                    <div class="card border-info mb-1" style="max-width: 18rem;">
+                        <div class="card-header bg-info">
+                            <a href="#collapseUsers" class="text-white" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseUsers">
+                                <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+                                Gerenciar Usuários
+                            </a>
+                        </div>
+                        
+                        <div class="collapse" id="collapseUsers">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#" class="text-info">Incluir novo Usuário</a></li>
+                                <li class="list-group-item"><a href="#" class="text-info">Alterar Usuários</a></li>
+                                <li class="list-group-item"><a href="#" class="text-info">Excluir Usuários</a></li>
+                            </ul>
+                            <div class="card-footer bg-info"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- FIM menu navegação lateral -->
+                    
+                </div>
+                <div class="col-9">
+                    <div class="bg-white rounded border-info p-3 shadow">
+                        
+                        <ul class="nav nav-pills mx-1" role="tablist">
+                            <li class="nav-item mr-1"><a class="nav-link btn btn-info" href="#">E-mails <span class="badge badge-light">10</span></a></li>
+                            <li class="nav-item mr-1"><a class="nav-link active btn btn-info" href="#">Avisos <span class="badge badge-light">2</span></a></li>
+                            <li class="nav-item mr-1"><a class="nav-link btn btn-info" href="#">Mensagens <span class="badge badge-light">4</span></a></li>
+                            <li class="nav-item"><a class="nav-link btn btn-info" href="#">Aniversariantes <span class="badge badge-light">3</span></a></li>
+                        </ul>
+                        
+                        <div class="jumbotron mx-1 mb-2">
+                            <h2>Seja bem-vindo usuário!</h2>
+                            <p>Utilize o menu ao lado para acessar as áreas do painel</p>
+                        </div>
+                        
+                        <div class="row rounded border border-info mx-1 mb-2 py-2">
+                            <div class="col-12">
+                                <h3>Avisos:</h3>
+                                <div class="alert alert-success">
+                                    <strong>Parabéns!</strong> Você foi recomendado!
+                                </div>
+
+                                <div class="alert alert-warning">
+                                    <strong>Atenção!</strong> Você tem até o dia 01/01/1111 para ajustar suas férias!
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row rounded border border-info mx-1 mb-2 py-2">
+                            <div class="col-4">
+                                <h3>Minhas Tarefas</h3>
+                                <ul>
+                                    <li>Ligar para Fulano</li>
+                                    <li>Retornar e-mail Fulano</li>
+                                    <li>Outra Tarefa</li>
+                                </ul>
+                                <a href="#" class="btn btn-info btn-block">Adicionar nova Tarefa</a>
+                            </div>
+                            <div class="col-4">
+                                <h3>Minhas Tarefas</h3>
+                                <ul>
+                                    <li>Ligar para Fulano</li>
+                                    <li>Retornar e-mail Fulano</li>
+                                    <li>Outra Tarefa</li>
+                                </ul>
+                                <a href="#" class="btn btn-info btn-block">Adicionar nova Tarefa</a>
+                            </div>
+                            <div class="col-4">
+                                <h3>Minhas Tarefas</h3>
+                                <ul>
+                                    <li>Ligar para Fulano</li>
+                                    <li>Retornar e-mail Fulano</li>
+                                    <li>Outra Tarefa</li>
+                                </ul>
+                                <a href="#" class="btn btn-info btn-block">Adicionar nova Tarefa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/admin.js"></script>
+    </body>
+</html>

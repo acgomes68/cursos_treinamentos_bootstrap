@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Curso Bootstrap</title>
+        
+        <!-- define a view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        
+        <!-- Adcionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- CSS personalizado Geral -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="page-header">
+                        <h1>Tooltips</h1>
+                    </div>
+                    
+                    <div class="text-center">
+                        
+                        <button type="button" class="btn btn-primary ttp" data-toggle="tooltip" data-placement="left" title="Tooltip Left">Tooltip 1 - Left</button>
+
+                        <button type="button" class="btn btn-primary ttp" data-toggle="tooltip" data-placement="right" title="Tooltip Right">Tooltip 2 - Right</button>
+
+                        <button type="button" class="btn btn-primary ttp" data-toggle="tooltip" data-placement="top" title="Tooltip Top">Tooltip 3 - Top</button>
+
+                        <button type="button" class="btn btn-primary ttp" data-toggle="tooltip" data-placement="bottom">Tooltip 4 - Bottom</button>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="page-header">
+                        <h1>Popovers</h1>
+                    </div>
+
+                    <div class="text-center">
+                        
+                        <button type="button" class="btn btn-primary ppv" data-toggle="popover" data-placement="left" data-content="Popover Left" data-container="body">Popover 1 - Left</button>
+
+                        <button type="button" class="btn btn-primary ppv" data-toggle="popover" data-placement="right" data-content="Popover Right" data-container="body">Popover 2 - Right</button>
+
+                        <button type="button" class="btn btn-primary ppv" data-toggle="popover" data-placement="top" data-content="Popover Top" data-container="body">Popover 3 - Top</button>
+
+                        <button type="button" class="btn btn-primary ppv" data-toggle="popover" data-placement="bottom" title="Popover no title" data-content="Popover Top" data-container="body">Popover 4 - Bottom</button>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <script src="js/popper.min.js" type="text/javascript"></script>
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>

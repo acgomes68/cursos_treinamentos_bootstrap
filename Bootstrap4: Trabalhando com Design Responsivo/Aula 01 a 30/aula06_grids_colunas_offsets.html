@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso Bootstrap</title>
+        
+        <!-- define a view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        
+        <!-- Adcionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- CSS personalizado -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-xs-6 col-sm-6 colunaComBorda">
+                    
+                    <div class="row">
+                        
+                        <div class="col-xs-4 col-sm-4 colunaComBorda">1</div>
+                        <div class="col-xs-4 col-sm-4 colunaComBorda">2</div>
+                        <div class="col-xs-4 col-sm-4 colunaComBorda">3</div>
+                        
+                    </div>
+
+                    <div class="row">
+                        
+                        <div class="col-xs-4 col-sm-4 colunaComBorda">4</div>
+                        <div class="col-xs-4 col-sm-4 colunaComBorda">5</div>
+                        <div class="col-xs-4 col-sm-4 colunaComBorda">6</div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="col-xs-6 col-sm-6 colunaComBorda">
+                    Texto 2
+                </div>
+                
+            </div>
+
+            <hr />
+
+            <div class="row">
+                <div class="col-4 colunaComBorda">4 posições</div>
+                <div class="col-6 offset-2 colunaComBorda">6 posições</div>
+            </div>
+
+            <div class="row">
+                <div class="col-10 offset-1 colunaComBorda">10 espaços centrais</div>
+            </div>
+
+            <div class="row">
+                <div class="col-10 mx-auto colunaComBorda">10 espaços centrais com mx-auto</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12 colunaComBorda">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 colunaComBorda">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-10 col-md-10 offset-sm-2 offset-md-2 colunaComBorda">
+                                    teste de aninhamento
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 colunaComBorda">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 colunaComBorda">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-10 ml-auto colunaComBorda">
+                                    teste de aninhamento com ml-auto
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col colunaComBorda">
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

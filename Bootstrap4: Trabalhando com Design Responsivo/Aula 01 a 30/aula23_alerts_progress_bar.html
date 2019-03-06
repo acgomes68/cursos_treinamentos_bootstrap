@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Curso Bootstrap</title>
+        
+        <!-- define a view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        
+        <!-- Adcionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- CSS personalizado Geral -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>Alerts <small>Elementos alerts</small></h1>
+                    </div>
+                    
+                    <div class="alert alert-primary" role="alert">
+                      A simple primary alert—check it out!
+                    </div>
+                    <div class="alert alert-secondary" role="alert">
+                      A simple secondary alert—check it out!
+                    </div>                    
+                    <div class="alert alert-success" role="alert">Formulário enviado com sucesso!</div>
+                    <div class="alert alert-warning" role="alert">Cuidado ao preencher o formulário!</div>
+                    <div class="alert alert-info" role="alert">Preencha todos os campos do formulário!</div>
+                    <div class="alert alert-danger" role="alert">Você não preencheu todos os campos corretamente!</div>
+                    <div class="alert alert-light" role="alert">
+                      A simple light alert—check it out!
+                    </div>
+                    <div class="alert alert-dark" role="alert">
+                      A simple dark alert—check it out!
+                    </div>                    
+                    
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <strong>Você</strong> não preencheu todos os campos <a href="#" class="alert-link">corretamente</a>!
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>Progress Bar <small>Elementos progress bar</small></h1>
+                    </div>
+                    
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" style="width: 70%;">70% completo</div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" style="width: 60%;">60% completo</div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-info progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width: 50%;">50% completo com striped</div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-warning progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width: 50%;">50% completo</div>
+                    </div>
+                    
+                    <div class="progress">
+                        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width: 50%;">50% completo com striped e animated</div>
+                    </div>
+                    
+                    <br />
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Curso Bootstrap</title>
+        
+        <!-- define a view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        
+        <!-- Adcionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- CSS personalizado Geral -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+
+        <!-- CSS personalizado com ícones da biblioteca Glyphicon -->
+        <link href="css/glyphicon.css" rel="stylesheet" media="screen">
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div class="row colunaComBorda">
+
+                <div class="col-12 colunaComBorda">
+                    
+                    <h1>Input Groups</h1>
+                    
+                    <form>
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            
+                            <input type="text" class="form-control" placeholder="insira seu e-mail" />
+                        </div>
+
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Seu nome:</span>
+                            </div>
+                            
+                            <input type="text" class="form-control" />
+                        </div>
+                        
+                        <br />
+                        
+                        <div class="input-group">
+                            <input type="text" class="form-control" />
+                            <div class="input-group-append">
+                                <span class="input-group-text">Insira seu e-mail</span>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" class="form-control" />
+                            <div class="input-group-append">
+                                <span class="input-group-text" required>Obrigatório</span>
+                            </div>
+                        </div>
+                        
+                        <br />
+                        
+                        <div class="input-group input-group-sm">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">R$</span>
+                            </div>
+                            <input type="text" class="form-control" />
+                            <div class="input-group-append">
+                                <span class="input-group-text">,00</span>
+                            </div>
+                        </div>
+                        
+                        <br />
+                        
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><input type="checkbox" /></span>
+                            </div>
+                            
+                            <input type="text" class="form-control" />
+                        </div>
+
+                        <br />
+                        
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></span>
+                            </div>
+                            
+                            <input type="text" class="form-control" />
+                            
+                            <div class="input-group-append">
+                                <span class="input-group-text"><button class="btn btn-primary">Buscar</button></span>
+                            </div>
+                        </div>
+
+                        <br />
+                        
+                        <div class="input-group">
+                            <input type="text" class="form-control" />
+                            
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Selecione um estado</button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a class="dropdown-item" href="#">RS</a></li>
+                                    <li><a class="dropdown-item" href="#">SC</a></li>
+                                    <li><a class="dropdown-item" href="#">SP</a></li>
+                                    <li><a class="dropdown-item" href="#">RJ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br />
+                        
+                        <div class="input-group">
+                            <input type="text" class="form-control" />
+                            
+                            <div class="input-group-append">
+                                <select class="form-control">
+                                    <option>Selecione um estado</option>
+                                    <option>RS</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>RJ</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

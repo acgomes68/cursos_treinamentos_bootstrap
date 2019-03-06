@@ -1,0 +1,50 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    position: relative;
+    padding-top: 56px; 
+}
+
+section {
+    min-height: 100vh;
+}
+
+section#contato {
+    min-height: auto;
+}
+
+section#servicos h4 {
+    font-size: 25px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+img.grayscale {
+    cursor: default;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+img.grayscale:hover {
+    cursor: pointer;
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.bg-azul-claro {
+    background: url(../img/bg_slider.png);
+}
+
+.contato_textarea {
+    height: 177px;
+}

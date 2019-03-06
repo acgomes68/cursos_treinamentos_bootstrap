@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!-- CSS personalizado com ícones da biblioteca Glyphicon -->
+        <link href="css/glyphicon.css" rel="stylesheet" media="screen">
+        
+        <!-- Application CSS -->
+        <link rel="stylesheet" href="css/admin.css">
+
+        <title>Bootstrap 4 - Projeto Prático - Login</title>
+    </head>
+    <body>
+        <!--a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank">Subtle Paterns</a-->
+        <!--a href="https://fontawesome.com/" target="_blank">Font Awesome</a-->
+        
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logomarca</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-login">
+                        <h2>Efetue login</h2>
+                        <form action="painel.html">
+                            <label class="sr-only" for="inputEmail">E-Mail:</label>
+                            <input type="email" id="inputEmail" name="inputEmail" class="form-control form-control-lg" placeholder="Seu e-mail" maxlength="50" required />
+                            <label class="sr-only" for="inputSenha">Senha:</label>
+                            <input type="password" id="inputSenha" name="inputSenha" class="form-control form-control-lg" placeholder="Sua senha" maxlength="15" required />
+                            
+                            <div class="form-check">
+                                <label>
+                                    <input type="checkbox" class="form-check-input" value="1" id="chkManterLogado" name="chkManterLogado" />
+                                    <label class="form-check-label" for="chkManterLogado">Manter logado</label>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-info btn-lg btn-block">
+                                <i class="glyphicon glyphicon-ok" aria-hidden="true"></i>
+                                Login
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-maxlength.js"></script>
+        <script src="js/admin.js"></script>
+    </body>
+</html>

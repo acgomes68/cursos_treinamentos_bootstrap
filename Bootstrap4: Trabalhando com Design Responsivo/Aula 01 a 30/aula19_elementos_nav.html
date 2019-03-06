@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Curso Bootstrap</title>
+        
+        <!-- define a view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        
+        <!-- Adcionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- CSS personalizado Geral -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+
+        <!-- CSS personalizado com ícones da biblioteca Glyphicon -->
+        <link href="css/glyphicon.css" rel="stylesheet" media="screen">
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div class="row colunaComBorda">
+
+                <div class="col-12 colunaComBorda">
+                    
+                    <h1>Tabs</h1>
+                    
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link active" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Teste</a>
+                                <a class="dropdown-item" href="#">Teste</a>
+                                <a class="dropdown-item" href="#">Teste</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    
+                    <br />
+                    
+                    <nav class="nav nav-tabs">
+                        <a class="nav-link active" href="#">Título do link</a>
+                        <a class="nav-link" href="#">Título do link</a>
+                        <a class="nav-link" href="#">Título do link</a>
+                        <a class="nav-link" href="#">Título do link</a>
+                    </nav>
+                    
+                    <br />
+                    
+                    <h2>Justified</h2>
+                    
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="nav-item"><a class="nav-link active" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                    </ul>
+
+                    <br />
+                    
+                    <h2>Fill</h2>
+                    
+                    <ul class="nav nav-tabs nav-fill">
+                        <li class="nav-item"><a class="nav-link active" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                    </ul>
+
+                    <br />
+                    
+                    <h2>Flex</h2>
+                    
+                    <nav class="nav nav-tabs flex-column flex-sm-row">
+                        <a class="flex-sm-fill text-sm-center nav-link active" href="#">Título do link</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Título do link</a>
+                        <a class="flex-sm-fill text-sm-center nav-link disabled" href="#">Título do link</a>
+                    </nav>
+                    
+                </div>
+                
+                <div class="col-12 colunaComBorda">
+                    
+                    <h1>Pills</h1>
+                    
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a class="nav-link active" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Teste</a>
+                                <a class="dropdown-item" href="#">Teste</a>
+                                <a class="dropdown-item" href="#">Teste</a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <br />
+                    
+                    <nav class="nav nav-pills">
+                        <a class="nav-link active" href="#">Título do link</a>
+                        <a class="nav-link" href="#">Título do link</a>
+                        <a class="nav-link" href="#">Título do link</a>
+                        <a class="nav-link" href="#">Título do link</a>
+                    </nav>
+                    
+                    <br />
+                    
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item"><a class="nav-link active" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                    </ul>
+                    
+                    <br />
+                    
+                    <h2>Justified</h2>
+                    
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="nav-item"><a class="nav-link active" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                    </ul>
+                    
+                    <br />
+                    
+                    <h2>Fill</h2>
+                    
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item"><a class="nav-link active" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Título do link</a></li>
+                    </ul>
+                    
+                    <br />
+                    
+                    <h2>Flex</h2>
+                    
+                    <nav class="nav nav-pills flex-column flex-sm-row">
+                        <a class="flex-sm-fill text-sm-center nav-link active" href="#">Título do link</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Título do link</a>
+                        <a class="flex-sm-fill text-sm-center nav-link disabled" href="#">Título do link</a>
+                    </nav>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

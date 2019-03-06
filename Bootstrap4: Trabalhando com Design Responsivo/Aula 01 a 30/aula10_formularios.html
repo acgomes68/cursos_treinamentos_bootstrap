@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso Bootstrap</title>
+        
+        <!-- define a view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        
+        <!-- Adcionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- CSS personalizado -->
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-12 colunaComBorda">
+                    
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome completo:</label>
+                            <input type="text" class="form-control" id="nome" />
+                        </div>
+                        <div class="form-group">
+                            <label for="nome">Tipo:</label>
+                            <select class="form-control" id="tipo">
+                                <option>Pessoa física</option>
+                                <option>Pessoa jurídica</option>
+                            </select>
+                        </div>
+                    </form>
+                    
+                    <hr />
+                    
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="nome">Nome completo:</label>
+                            <input type="text" class="form-control" id="nome" />
+                        </div>
+                        <div class="form-group">
+                            <label for="nome">Tipo:</label>
+                            <select class="form-control" id="tipo">
+                                <option>Pessoa física</option>
+                                <option>Pessoa jurídica</option>
+                            </select>
+                        </div>
+                    </form>
+                    
+                    <hr />
+                    
+                    <form>
+                        <div class="form-group">
+                            <label for="nome" class="sr-only">Nome completo:</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                        </div>
+                        <div class="form-group">
+                            <label for="nome">Tipo:</label>
+                            <select class="form-control" id="tipo">
+                                <option>Pessoa física</option>
+                                <option>Pessoa jurídica</option>
+                            </select>
+                        </div>
+                    </form>
+
+                    <hr />
+                    
+                    <form class="form-group">
+                        <div class="form-group form-row">
+                            <label for="nome" class="col-2 col-form-label control-label">Nome completo:</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                                <span class="text-muted">Texto de ajuda para o campo. Por exemplo: 111.111.111-11</span>
+                            </div>
+                        </div>
+                        <div class="form-group form-row">
+                            <label for="nome" class="col-2 col-form-label control-label">Tipo:</label>
+                            <div class="col-10">
+                                <select class="form-control" id="tipo">
+                                    <option>Pessoa física</option>
+                                    <option>Pessoa jurídica</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group form-row">
+                            <label for="selecione" class="col-2 control-label">Selecione:</label>
+                            <div class="col-10">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id1" value="1" /> 1
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id2" value="2" /> 2
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id3" value="3" /> 3
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group form-row">
+                            <label for="nome" class="col-2 col-form-label control-label">Seu e-mail:</label>
+                            <div class="col-10">
+                                <p class="form-control-plaintext">atendimento@webhouse.com</p>
+                            </div>
+                        </div>
+                        <div class="form-group form-row has-success has-feedback">
+                            <label for="nome" class="col-2 col-form-label control-label">Nome completo:</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group form-row has-warning has-feedback">
+                            <label for="nome" class="col-2 col-form-label control-label">Nome completo:</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                                <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group form-row has-error has-feedback">
+                            <label for="nome" class="col-2 col-form-label control-label">Nome completo:</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                                <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group form-row">
+                            <label for="nome" class="col-2 col-form-label control-label">Nome completo:</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control form-control-lg" id="nome" placeholder="Nome:" />
+                                <span class="form-text">Texto de ajuda para o campo. Por exemplo: 111.111.111-11</span>
+                            </div>
+                        </div>
+                        <div class="form-group form-row">
+                            <label for="nome" class="col-2 col-form-label control-label">Nome completo:</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control form-control-sm" id="nome" placeholder="Nome:" />
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+                
+           </div>
+            
+        </div>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

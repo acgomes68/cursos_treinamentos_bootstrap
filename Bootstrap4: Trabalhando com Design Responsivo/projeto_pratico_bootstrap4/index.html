@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!-- Application CSS -->
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <title>Bootstrap 4 - Projeto Prático</title>
+    </head>
+    <body data-spy="scroll" data-target="#menu-navegacao" data-offset="80">
+
+        <!-- Menu da aplicação -->
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-info">
+            <div class="container">
+                <a class="navbar-brand" href="#top">Logomarca</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-navegacao" aria-controls="menu-navegacao" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu-navegacao">
+                    <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
+                        <li class="nav-item mr-auto">
+                            <a class="nav-link" href="#top"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quem-somos">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#localizacao">Localização</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- FIM Menu da aplicação -->
+        
+        <!-- Slider da aplicação -->
+        <div class="divslider bg-azul-claro py-3">
+            <div id="sliderHome" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+                <ol class="carousel-indicators">
+                    <li data-target="#sliderHome" data-slide-to="0" class="active"></li>
+                    <li data-target="#sliderHome" data-slide-to="1"></li>
+                    <li data-target="#sliderHome" data-slide-to="2"></li>
+                    <li data-target="#sliderHome" data-slide-to="3"></li>
+                    <li data-target="#sliderHome" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/slider/img_01.jpg" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slider/img_02.jpg" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slider/img_03.jpg" alt="Imagem 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slider/img_04.jpg" alt="Imagem 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slider/img_05.jpg" alt="Imagem 5">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#sliderHome" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#sliderHome" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+        <!-- FIM Slider da aplicação -->
+
+        <!-- Serviços -->
+        <section id="servicos" class="pt-4 pb-1">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="page-header">
+                            <h3>Serviços <small class="text-muted">Conheça o que fazemos</small></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center justify-content-center">
+                    <div class="col-10 col-sm-6 col-lg-3 mb-4 ">
+                        <div><img src="img/servicos_01.jpg" class="img-fluid border border-info rounded-circle" /></div>
+                        <h4 class="mt-2">E-commerce</h4>
+                        <p>Descrição do serviço apresentado. Texto texto texto texto texto texto texto texto texto texto texto</p>
+                    </div>
+
+                    <div class="col-10 col-sm-6 col-lg-3 mb-4">
+                        <div><img src="img/servicos_02.jpg" class="img-fluid border border-info rounded-circle" /></div>
+                        <h4 class="mt-2">Sites Responsivos</h4>
+                        <p>Descrição do serviço apresentado. Texto texto texto texto texto texto texto texto texto texto texto</p>
+                    </div>
+
+                    <div class="col-10 col-sm-6 col-lg-3 mb-4">
+                        <div><img src="img/servicos_03.jpg" class="img-fluid border border-info rounded-circle" /></div>
+                        <h4 class="mt-2">Criação de Layout</h4>
+                        <p>Descrição do serviço apresentado. Texto texto texto texto texto texto texto texto texto texto texto</p>
+                    </div>
+                    
+                    <div class="col-10 col-sm-6 col-lg-3 mb-4">
+                        <div><img src="img/servicos_04.jpg" class="img-fluid border border-info rounded-circle" /></div>
+                        <h4 class="mt-2">Aplicações Mobile</h4>
+                        <p>Descrição do serviço apresentado. Texto texto texto texto texto texto texto texto texto texto texto</p>
+                    </div>
+                </div>
+                <div class="row text-center mt-0 mt-lg-3 mb-5 mb-lg-0">
+                    <div class="col-12">
+                        <a href="servicos.html" class="btn btn-info btn-lg">Clique aqui para conhecer todos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM Serviços -->
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="pt-4 pb-1 bg-azul-claro">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="page-header">
+                            <h3>Portfolio <small class="text-muted">Conheça nossos trabalhos</small></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center justify-content-center">
+                    <div class="col-10 col-sm-4 mb-4">
+                        <div class="bg-white border border-info rounded">
+                            <img src="img/portfolio_01.jpg" class="img-fluid img-thumbnail grayscale" />
+                            <h5 class="mt-1 pb-2">Nome do cliente</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-4 mb-4">
+                        <div class="bg-white border border-info rounded">
+                            <img src="img/portfolio_02.jpg" class="img-fluid img-thumbnail grayscale" />
+                            <h5 class="mt-1 pb-2">Nome do cliente</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-4 mb-4">
+                        <div class="bg-white border border-info rounded">
+                            <img src="img/portfolio_03.jpg" class="img-fluid img-thumbnail grayscale" />
+                            <h5 class="mt-1 pb-2">Nome do cliente</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center justify-content-center">
+                    <div class="col-10 col-sm-4 mb-4">
+                        <div class="bg-white border border-info rounded">
+                            <img src="img/portfolio_01.jpg" class="img-fluid img-thumbnail grayscale" />
+                            <h5 class="mt-1 pb-2">Nome do cliente</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-4 mb-4">
+                        <div class="bg-white border border-info rounded">
+                            <img src="img/portfolio_02.jpg" class="img-fluid img-thumbnail grayscale" />
+                            <h5 class="mt-1 pb-2">Nome do cliente</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-4 mb-4">
+                        <div class="bg-white border border-info rounded">
+                            <img src="img/portfolio_03.jpg" class="img-fluid img-thumbnail grayscale" />
+                            <h5 class="mt-1 pb-2">Nome do cliente</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-0 mt-sm-5 mt-md-4 mt-lg-0 mb-3 mb-sm-0 mb-lg-3">
+                    <div class="col-12 text-center">
+                        <a href="portfolio.html" class="btn btn-info btn-lg">Clique aqui para conhecer todos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM Portfolio -->
+
+        <!-- Quem Somos -->
+        <section id="quem-somos" class="pt-4 pb-1">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="page-header">
+                            <h3>Quem Somos <small class="text-muted">Conheça nossa história</small></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-6 col-sm-8 text-right">
+                                <h4>Texto sobre a empresa</h4>
+                                <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+                                <p class="d-none d-sm-block">texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+                            </div>
+                            <div class="col-6 col-sm-4">
+                                <img src="img/quemsomos.jpg" class="img-fluid border border-info rounded-circle" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-6 col-sm-4">
+                                <img src="img/missao_empresa.jpg" class="img-fluid border border-info rounded-circle" />
+                            </div>
+                            <div class="col-6 col-sm-8">
+                                <h4>Missão da empresa</h4>
+                                <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+                                <p class="d-none d-sm-block">texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-header">
+                            <h4>Nossa equipe <small class="text-muted">Conheça nossos colaboradores</small></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center justify-content-center">
+                    <div class="col-10 col-sm-3">
+                        <div class="mt-1 mb-2 pb-1 border border-info rounded">
+                            <img src="img/colaborador_01.jpg" class="img-fluid img-thumbnail" />
+                            <h5>Nome do colaborador</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-3">
+                        <div class="mt-1 mb-2 pb-1 border border-info rounded">
+                            <img src="img/colaborador_02.jpg" class="img-fluid img-thumbnail" />
+                            <h5>Nome do colaborador</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-3">
+                        <div class="mt-1 mb-2 pb-1 border border-info rounded">
+                            <img src="img/colaborador_03.jpg" class="img-fluid img-thumbnail" />
+                            <h5>Nome do colaborador</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-3">
+                        <div class="mt-1 mb-2 pb-1 border border-info rounded">
+                            <img src="img/colaborador_04.jpg" class="img-fluid img-thumbnail" />
+                            <h5>Nome do colaborador</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM Quem Somos -->
+
+        <!-- Localização -->
+        <section id="localizacao" class="pt-4 pb-1 bg-azul-claro">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="page-header">
+                            <h3>Localização <small class="text-muted">Veja onde estamos</small></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-2 mb-sm-0">
+                    <div class="col-12">
+                        <iframe class="border border-info" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6848488023775!2d-46.49528858550208!3d-23.543834866829297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6736db57ce29%3A0x17c04f1b7ae5b7c9!2sRua+Saturnino+de+Sousa%2C+44+-+Vila+Nhocune%2C+S%C3%A3o+Paulo+-+SP%2C+03561-090!5e0!3m2!1spt-BR!2sbr!4v1529096361492" width="100%" height="540" frameborder="0" style="border:0" allowfullscreen></iframe>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM Localização -->
+
+        <!-- Contato -->
+        <section id="contato" class="pt-4 pb-3">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="page-header">
+                            <h3>Contato <small class="text-muted">Fale conosco agora mesmo</small></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                Preencha o formulário abaixo para entrar em contato conosco.
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <form name="frmContato" id="frmContato">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control form-control-lg" placeholder="Qual o seu nome? *" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control form-control-lg" placeholder="Qual o seu e-mail? *" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control form-control-lg" placeholder="Qual o seu telefone?" />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <textarea class="form-control form-control-lg contato_textarea" placeholder="Qual a sua mensagem? *" required ></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="alert alert-warning invisible"></div>
+                                </div>
+                                <div class="col-12 col-sm-6 text-right">
+                                    <button type="submit" class="btn btn-info btn-lg">Enviar formulário</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM Contato -->
+        
+        <footer class="pt-3 bg-azul-claro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-7 col-sm-8">
+                        <address>
+                            Rua Saturnino de Souza, 44 - Casa 2<br />
+                            03561-090 - Vila Nhocuné<br />
+                            São Paulo/SP - Brasil<br />
+                            Tel.: (11) 95475-0644<br />
+                            e-Mail: <a href="mailto:acgomes68@gmail.com">acgomes68@gmail.com</a>
+                        </address>
+                    </div>
+                    <div class="col-5 col-sm-4 text-right">
+                        <small>Desenvolvido por:</small>
+                        <br />
+                        <strong><a href="https://linkedin.com/in/antonio-carlos-gomes-a10643127/" target="_blank">Antonio Carlos Gomes</a></strong>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
